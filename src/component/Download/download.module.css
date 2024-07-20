@@ -1,0 +1,62 @@
+.iphone {
+  min-height: 500px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.Btn {
+  background-color:var(--primary-color) !important;
+  color: #ffffff;
+  width: 165px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  margin: 10px; 
+}
+
+.Btn:hover {
+  background-color: var(--primary-color) !important;
+}
+
+.Btext {
+  font-size: 2.5rem;
+  margin-top: 50px;
+  text-align: start;
+}
+
+.Ltext {
+  color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  .Btext {
+    font-size: 1.5rem;
+  }
+
+  .iphone {
+    height: auto;
+    width: 100%;
+  }
+
+  .Btn {
+    width: 150px; 
+    height: 40px; 
+    font-size: 30px; 
+  }
+}.Btn1{
+  background-color: black !important;
+}
+
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Btn {
+    margin: 10px 0; 
+  }
+}

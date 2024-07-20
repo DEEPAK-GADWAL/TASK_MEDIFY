@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  /* margin-top: 5px; */
+}
+
+.icon-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: white;
+  position: relative;
+}

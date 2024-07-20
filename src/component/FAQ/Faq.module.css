@@ -1,0 +1,43 @@
+.mainContainer {
+  padding: 40px 0;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.cardImg {
+  object-fit: cover;
+  height: 400px;
+}
+
+.overlayText {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.overlayTextContent {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.sectionTitle {
+  margin-bottom: 10px;
+}
+
+.mainTitle {
+  margin-bottom: 20px;
+}
+
+.ListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

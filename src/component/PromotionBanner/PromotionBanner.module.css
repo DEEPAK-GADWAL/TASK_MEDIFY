@@ -1,0 +1,48 @@
+.container {
+  padding: 20px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  min-height: 12rem; 
+  max-height: auto;
+  flex-direction: column;
+  justify-content: center; 
+  margin-top: 8px;
+  border-radius:8px ;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subheading {
+  font-size: 1.2rem;
+}
+
+.highlight {
+  color: #0071ce;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #0071ce;
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  /* border-radius: 20px; */
+}
+
+.hashtag {
+  margin-top: 10px;
+  color: #0071ce;
+  font-weight: bold;
+}
+
+.terms {
+  margin-top: 10px;
+  color: #777;
+  font-size: 0.75rem;
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content:center;
+  padding: 20px;
+  flex-wrap: wrap-reverse; 
+  gap: 15px;
+}
+
+/* .hospitalContainer {
+  flex: 3;
+  margin-right: 15px;
+} */
+
+/* .bannerContainer {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+} */
+
+

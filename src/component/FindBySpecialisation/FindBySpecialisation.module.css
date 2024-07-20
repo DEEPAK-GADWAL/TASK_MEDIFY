@@ -1,0 +1,146 @@
+.mainContainer {
+  max-width: 100%;
+  width: calc(100% - 40px); 
+  margin: 0 auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  height: auto; 
+  position: relative;
+  z-index: 100;
+  margin-bottom: 30px; 
+}
+
+.searchSection {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  margin-bottom: 20px; 
+  justify-content: space-evenly;
+}
+
+.searchInput {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  outline: none;
+}
+
+.searchButton {
+  padding: 10px 20px;
+}
+
+.title {
+  font-size: 24px; 
+  font-weight: bold;
+  margin-bottom: 30px; 
+}
+
+.iconBox {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.iconItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.viewAllBtn{
+  margin-top: 20px;
+}
+.iconItem:hover {
+  transform: scale(1.2);
+  background-color: #e0e0e0a8;
+}
+
+.icon {
+  font-size: 40px;
+  color: #007bff;
+}
+
+.iconItem p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+@media (min-width: 600px) {
+  .searchSection {
+    flex-direction: row; 
+    gap: 15px; 
+  }
+
+  .mainContainer {
+    width: calc(100% - 40px); 
+    height: auto; 
+  }
+
+  .iconBox {
+    justify-content: space-around; 
+  }
+
+  .iconItem {
+    width: 120px; 
+  }
+
+  .title {
+    font-size: 28px; 
+    margin-bottom: 40px; 
+  }
+}
+
+
+@media (min-width: 900px) {
+  .mainContainer {
+    width: calc(100% - 120px); 
+  }
+
+  .searchSection {
+    gap: 20px; 
+  }
+
+  .iconItem {
+    width: 150px; 
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mainContainer {
+    width: calc(100% - 120px); 
+  }
+
+  .searchSection {
+    gap: 20px; 
+  }
+
+  .iconItem {
+    width: 150px; 
+  }
+
+  .title {
+    font-size: 32px; 
+  }
+
+  .iconBox {
+    justify-content: space-evenly; 
+  }
+}

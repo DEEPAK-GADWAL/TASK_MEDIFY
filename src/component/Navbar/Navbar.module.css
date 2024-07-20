@@ -1,0 +1,75 @@
+.navbarContainer {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+}
+
+.desktopNavLinks {
+  display: flex;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .desktopNavLinks {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: block;
+  }
+
+  .mobileNavLinks {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .mobileNavLinks ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .mobileNavLinks li {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .mobileNavLinks a {
+    display: block;
+    padding: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

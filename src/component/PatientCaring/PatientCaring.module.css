@@ -1,0 +1,160 @@
+/* src/components/PatientCaring.module.css */
+.mainContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--backgrondclr);
+  padding-top: 20px;
+  /* border: 1px solid black; */
+  height: auto;
+  padding: 20px;
+  height: 400px;
+}
+
+img {
+  height: 175px;
+  width: 195px;
+}
+
+.topHead {
+  color: var(--primary-color);
+}
+
+.caringPoint {
+  margin-top: 15px;
+}
+
+.caringPoint li {
+  margin-top: 10px;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.bulletPoint {
+  color: var(--primary-color);
+}
+
+.consulation {
+  border: 1px solid grey;
+  display: table;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.phone {
+  background-color: var(--primary-color);
+  margin-right: 5px;
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+}
+
+.patien1 {
+  position: relative;
+  left: 150px;
+  background-color: white;
+  padding: 3px;
+  bottom: 35px;
+}
+
+.patien2 {
+  position: relative;
+  top: 104px;
+  right: 115px;
+  background-color: white;
+  padding: 3px;
+  z-index: 1000;
+}
+
+.consulation {
+  position: relative;
+  top: 83px;
+  z-index: 100;
+  background: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 915px) {
+  .mainContainer {
+    padding: 10px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .patienImg,
+  .headingText {
+    max-width: 100%;
+  }
+
+  .patien1,
+  .patien2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .consulation {
+    top: 0;
+    position: relative;
+    margin: 10px 0;
+  }
+
+  .headingText {
+    margin-top: 150px;
+  }
+
+  .patien1 {
+    position: relative;
+    left: 150px;
+    background-color: white;
+    padding: 3px;
+    bottom: 35px;
+  }
+
+  .patien2 {
+    position: relative;
+    top: 104px;
+    right: 115px;
+    background-color: white;
+    padding: 3px;
+    z-index: 1000;
+  }
+
+  .consulation {
+    position: relative;
+    top: 83px;
+    z-index: 100;
+    background: white;
+  }
+
+
+
+}
+
+@media (max-width: 500px) {
+  .mainContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .patienImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .patien1,
+  .patien2 {
+    position: static;
+    margin: 10px 0;
+  }
+
+  .consulation {
+    position: relative;
+    top: -2px;
+  }
+}

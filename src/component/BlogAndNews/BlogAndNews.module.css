@@ -1,0 +1,36 @@
+.cardItem {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+
+.mainHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.mainHead h5 {
+  color: var(--primary-color);
+}
+
+.mainHead h1 {
+  color: rgba(0, 0, 0, 0.664);
+}
+
+.cardItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: start;
+  align-items: center;
+  gap: 10px;
+}

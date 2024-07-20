@@ -1,0 +1,76 @@
+
+.schedulerContainer {
+  font-family: Arial, sans-serif;
+  max-width: 670px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: #f0f4f8; */
+  border-radius: 8px;
+
+  box-shadow: 9px 13px 14px -17px grey;
+}
+
+
+.dateItem {
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.dateItemSelected {
+  font-weight: bold;
+  color: #0070f3;
+  background-color: #e6f7ff;
+  border-radius: 8px;
+}
+.dateDiv{
+  border: 1px solid black;
+}
+
+.timeDiv{
+  border: 1px solid black;
+}
+.slotsAvailable {
+  font-size: 0.8em;
+  color: #0ca332;;
+}
+
+.timeSlots {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.timePeriod {
+  margin-bottom: 15px;
+}
+
+.periodLabel {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.slotButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.timeSlotButton {
+  /* background-color: #e6f7ff; */
+  border: 1px solid var(--primary-color);
+  color:var(--primary-color);
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timeSlotButton:hover {
+  background-color: rgba(15, 15, 219, 0.281);
+}
+
+.swiperButtonNext,
+.swiperButtonPrev {
+  color: #0070f3;
+}
